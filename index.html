@@ -1,168 +1,194 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Diseño Web</title>
-<style> body{background-color: orange; border: 1px solid green;} </style>
+	<title>glyphicons con boostrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body>
-	<h1> <a target="_blank" href="sitio/">Sitio prueba</a> </h1>
+
+<div class="text-bg-dark p-3">
+	<p class="fw-bold fs-1" class="fs-1">CERTUS</p>
+</div>
+
+<nav class="navbar navbar-expand-lg bg-secondary">
+	<div class="container-fluid">
+	  <a class="navbar-brand" href="#">CERTUS</a>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="carreras.html">Carreras tecnicas</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Formacion continua</a>
+		  </li>
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			  Campus Virtual
+			</a>
+			<ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#">Portal academico</a></li>
+			  <li><a class="dropdown-item" href="#">Aula Virtual</a></li>
+			  <li><hr class="dropdown-divider"></li>
+			  <li><a class="dropdown-item" href="#">Correo Institucional</a></li>
+			</ul>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link disabled">Contacto</a>
+		  </li>
+		</ul>
+		<form class="d-flex" role="search">
+		  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		  <button class="btn btn-outline-success" type="submit">Search</button>
+		</form>
+	  </div>
+	</div>
+  </nav>
+
+  <div class="text-bg-dark p-3">
+	<p class="fw-bolder fs-3">¡Te Guiamos al Éxito!</p>
+	<p class="fw-normal fs-4">En Certus estamos listos para guiarte desde antes de elegir una carrera hasta que consigas el éxito.</p>
+  </div>
+
+<img src="img/logo-certus.png" class="img-fluid" alt="...">
+
+	<section class="row bg-secondary"> 
+		<article class="col-md-5 bg-danger">
+			<p class="fw-bolder fs-3">CARRERAS TECNICAS</p>
+			<ul>
+				<li>Administración de Empresas </li>
+				<li>Administración de Negocios Internacionales</li>
+				<li>Administración de Gestión Comercial</li>
+				<li>Marketing</li>
+				<li>Administración Bancaria</li>
+				<li>Contabilidad</li>
+				<li>Diseña y desarrollo de Software</li>
+				<li>Administración de sistemas</li>
+				<li>Publicidad</li>
+			</ul>
+			<picture>
+				<source srcset="img/AGC.jpg" type="image/svg+xml">
+				<img src="img/computacion.JPG" class="img-fluid img-thumbnail" alt="...">
+			</picture>
 		
-	<h1> LIZ MARILIA </h1>
-	<h3> 1. Introducción </h3>
-	<ul>
-		<li> <a target="_blank" href="https://www.apachefriends.org/download.html">Instalar y configurar XAMPP</a></li>
-		<li> <a target="_blank" href="https://code.visualstudio.com/download">Instalar Visual Studio Code (IDE)</a></li>
-		<li> <a target="_blank" href="https://www.google.com/intl/es/chrome/">Navegador Chrome</a></li>
-		<li> <a target="_blank" href="https://www.mozilla.org/es-ES/firefox/browsers/windows-64-bit/">Navegador FireFox</a></li>
-		<li> <a target="_blank" href="https://www.000webhost.com/">Publicar en 000webhost</a></li>
-		<li> <a target="_blank" href="https://devcode.la/tutoriales/publicar-tu-web-usando-github-pages/">Publicar GitHub</a></li>
-		<li> <a target="_blank" href="unid1/s01_introducion/t06_pruebas_servidor.html">Pruebas de servidor local</a></li>
-	</ul>
+		</article>
 
-	<h3>2. Páginas web, HTML y JS</h3>
-	<ul>
-		<li> <a target="_blank" href="unid1/s02_pag_html_js/pag00_manuales.html">Manual HTML, CSS, JS</a></li>
-		<li> <a target="_blank" href="unid1/s02_pag_html_js/pag01_diferencia_html_js_css.html">Diferencia entre HTML, CSS y JS</a></li>
-		<li> <a target="_blank" href="unid1/s02_pag_html_js/pag02_definir_css.html">Estructura de HTML4</a></li>
-		<li> <a target="_blank" href="unid1/s02_pag_html_js/pag03_css_html5.html">Estructura de HTML5</a></li>
-		<li> <a target="_blank" href="unid1/s02_pag_html_js/pag04_tabla.html">Tablas</a></li>
-		<li> <a target="_blank" href="unid1/s02_pag_html_js/pag05_js_vent_alert.html">Ventanas 1 - Advertencia</a></li>
-		<li> <a target="_blank" href="unid1/s02_pag_html_js/pag06_js_vent_confirm.html">Ventanas 2 - Confirmar</a></li>
-		<li> <a target="_blank" href="unid1/s02_pag_html_js/pag07_js_vent_prompt.html">Ventanas 3 - Ingresar valor</a></li>
+		<article class="col-md-3 bg-Info">
+			<div class="text-bg-dark p-3">
+				<p class="fw-bolder fs-3">CERTUS</p>
+				<p class="fw-normal fs-4">CERTUS es la institución educativa técnica superior, licenciada por el Ministerio de Educación, que tiene más de 20 años de experiencia brindando educación con los más altos estándares para la formación de profesionales técnicos.</p>
+			  </div>
+		</article>
 
-		<li> <a target="_blank" href="unid1/s02_pag_html_js/pag08_js_eventos.html">Eventos</a></li>
+		<aside class="col-md-4 bg-warning">
+			GALERIA DE FOTOS
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+				<div class="carousel-indicators">
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="img/F1.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+					  <h5>Graduacion de los Alumnos</h5>
+					  <p>Muchas felicidades promocion 2022</p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/F2.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+					  <h5>Bienvenidos queridos estudiantes</h5>
+					  <p>Alumnos del primer semestre</p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/F3.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+				  <div class="carousel-item">	
+					  <h5>Salones del Instituto</h5>
+					  <p>Computacion tercer semestre</p>
+					</div>
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			  </div>
+		</aside>
+	</section>
+
+	<hr>
+
+	<footer class="row bg-secondary">
+		(CONTACTANOS)
+	</footer>
+
+	<form class="row g-3">
+		<div class="col-md-6">
+		  <label for="inputEmail4" class="form-label">Email</label>
+		  <input type="email" class="form-control" id="inputEmail4">
+		</div>
+		<div class="col-md-6">
+		  <label for="inputPassword4" class="form-label">Carrera de interes</label>
+		  <input type="password" class="form-control" id="inputPassword4">
+		</div>
+		<div class="col-12">
+		  <label for="inputAddress" class="form-label">Direccion</label>
+		  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+		</div>
 		
-	</ul>
+		<div class="col-md-6">
+		  <label for="inputCity" class="form-label">Ciudad</label>
+		  <input type="text" class="form-control" id="inputCity">
+		</div>
+		<div class="col-md-4">
+		  <label for="inputState" class="form-label">Numero de contacto</label>
+		  <select id="inputState" class="form-select">
+			<option selected>Elegir...</option>
+			<option>celular</option>
+			<option>telefono</option>
+		  </select>
+		</div>
+		<div class="col-md-2">
+		  <label for="inputZip" class="form-label">Nombres</label>
+		  <input type="text" class="form-control" id="inputZip">
+		</div>
+		<div class="col-12">
+		  <div class="form-check">
+			<input class="form-check-input" type="checkbox" id="gridCheck">
+			<label class="form-check-label" for="gridCheck">
+			  Datos correctos
+			</label>
+		  </div>
+		</div>
+		<div class="col-12">
+		  <button type="submit" class="btn btn-primary">Enviar</button>
+		</div>
+	  </form>
 
-	<h3>3. Formularios, JavaScript y estilos</h3>
-	<ul>
-		<li> <a target="_blank" href="https://www.htmlquick.com/es/reference/tags.html">Manual: Elementos HTML</a></li>
-		<li> <a target="_blank" href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos">Manual: Lista de elementos HTML5</a></li>
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p01_html5_etiquetas.html">HTML5: Ejemplo de nuevos elementos</a></li>
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p02_html5_audio_video.html">HTML5: Audio y video</a></li>
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p03_html5_canvas_reloj.html">HTML5: Canvas(Reloj)</a></li>
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p04_html5_canvas_mundo.html">HTML5: Canvas(Mundo)</a></li>
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p05_html5_dragYdrop1.html">HTML5: Drag & Drop (Bloques)</a></li>
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p06_html5_dragYdrop2.html">HTML5: Drag & Drop (Puzzle)</a></li>
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p07_js_var_let_const.html">JS: Variables var, let y const</a></li>
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p08_js_def_fns_cs_return.html">JS: Definir funciones con y sin return</a></li>
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p09_js_tmpl_objetos_destr.html">JS: Variables, objetos y su lectura</a></li>
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p10_js_if_aplicacion1.html">JS: Aplicación 1 con if...else</a></li>
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p11_js_for_aplicacion2.html">JS: Aplicación 2 con for</a></li>		
-		<li> <a target="_blank" href="unid1/s03_html5_js_form/p12_form_val_atributo_html5.html">Formularios. Validar con atributos HTML5</a></li>
-	</ul>
-
-
-	<h3>4. JavaScript (JS, CSS, form)</h3>
-	<ul>
-		<li> <a target="_blank" href="unid1/s04_val_js_css/p01_val_js_txt_num.html">JS: Validación de texto y número</a></li>
-		<li> <a target="_blank" href="unid1/s04_val_js_css/p02_val_js_listas.html">JS: Validación de listas</a></li>
-		<li> <a target="_blank" href="unid1/s04_val_js_css/p03_val_js_chk_rad.html">JS: Validación de UNA elección tipo CHECK y botón (Radio)</a></li>
-		<li> <a target="_blank" href="unid1/s04_val_js_css/p04_val_js_2chk_y_val.html">JS: Validación de DOS check y verificar valores elegidos</a></li>
-		<li> <a target="_blank" href="unid1/s04_val_js_css/p05_val_js_expr_reg_1.html">JS: Validación con expresiones regulares 1</a></li>
-		<li> <a target="_blank" href="unid1/s04_val_js_css/p06_val_js_expr_reg_2.html">JS: Validación con expresiones regulares 2</a></li>
-		<li> <a target="_blank" href="unid1/s04_val_js_css/p07_val_js_aplicacion1.html">JS: Aplicación 1</a></li>
-		<li> <a target="_blank" href="unid1/s04_val_js_css/p08_val_js_aplicacion2.html">JS: Aplicación 2</a></li>
-		<li> <a target="_blank" href="unid1/s04_val_js_css/p09_val_js_aplicacion3.html">JS: Aplicación 3</a></li>
-		<li> <a target="_blank" href="unid1/s04_val_js_css/p10_val_js_evidencia1.html">JS: Validación texto, número y lista (Elegir mínimo dos opciones)(Evidencia 1)</a></li>
-	</ul>
-
-	<h3>5. Validaciones (Aplicaciones)</h3>
-	<ul>
-		<li> <a target="_blank" href="unid1/s05_aplic_val/p01_validar_a_html.html">Aplicación 1 - Validación con atributos HTML</HTML></a></li>
-		<li> <a target="_blank" href="unid1/s05_aplic_val/p02_validar_js.html">Aplicación 2 - Validación con JS</a></li>
-		<li> <a target="_blank" href="unid1/s05_aplic_val/p03_ventana.html">Aplicación 3 - Ventanas</a></li>
-		<li> <a target="_blank" href="unid1/s05_aplic_val/p04_archivos_img.html">Aplicación 4 - Archivos (img, PDF, etc)</a></li>
-		<li> <a target="_blank" href="unid1/s05_aplic_val/p05_form_contar_x_turno.html">Aplicación 5 - Formularios y tablas - Conteo por TURNO</a></li>
-		<li> <a target="_blank" href="unid1/s05_aplic_val/p06_form_contar_x_genero_evidencia1.html">Aplicación 6 - Formularios y tablas - Conteo por GENERO (Evidencia 1)</a></li>
-		<li> <a target="_blank" href="unid1/s05_aplic_val/p07_form_lista_1c.html">Aplicación 7 - Formulario lista con 1 criterio</a></li>
-		<li> <a target="_blank" href="unid1/s05_aplic_val/p08_form_lista_2c_evidencia2.html">Aplicación 8 - Formulario lista con 2 criterios (Evidencia 2)</a></li>
-	</ul>
-	
-
-	<h3>6. Evaluación - Primera unidad</h3>
-	<ul>
-		<li> <a target="_blank" href="unid1/s06_evaluacion1/p01_aplicacion_val_html5.html">Aplicación 1 - Validación con atributo HTML5</HTML></a></li>
-		<li> <a target="_blank" href="unid1/s06_evaluacion1/p02_aplicacion_val_js.html">Aplicación 2 - Validación con JavaScript</a></li>
-		<li> <a target="_blank" href="unid1/s06_evaluacion1/p03_aplicacion_ventanas.html">Aplicación 3 - Ventanas</a></li>
-		<li> <a target="_blank" href="unid1/s06_evaluacion1/p04_aplicacion_2_crits.html">Aplicación 4 - Listas con dos criterios</a></li>
-	</ul>
-
-	<h3>7. Evaluación - Primera unidad recuperación</h3>
-	<ul>
-		<li> <a target="_blank" href="unid1/s07_recuperacion1/p01_aplicacion_val_html5.html">Aplicación 1 - Validación con atributo HTML5</HTML></a></li>
-		<li> <a target="_blank" href="unid1/s07_recuperacion1/p02_aplicacion_val_js.html">Aplicación 2 - Validación con JavaScript</a></li>
-		<li> <a target="_blank" href="unid1/s07_recuperacion1/p03_aplicacion_ventanas.html">Aplicación 3 - Ventanas</a></li>
-		<li> <a target="_blank" href="unid1/s07_recuperacion1/p04_aplicacion_2_crits.html">Aplicación 4 - Listas con dos criterios</a></li>
-	</ul>
+<hr>
+	  <nav aria-label="Page navigation example">
+		<ul class="pagination">
+		  <li class="page-item"><a class="page-link" href="index.html">Pagina inicio</a></li>
+		  <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+		  <li class="page-item"><a class="page-link" href="carreras.html">2</a></li>
+		  <li class="page-item"><a class="page-link" href="#">3</a></li>
+		  <li class="page-item"><a class="page-link" href="#">siguiente</a></li>
+		</ul>
+	  </nav>
 
 	
-	<h1> Segunda unidad </h1>
-	<h3> 8. Maquetado con Framework Bootstrap - Fundamentos </h3>
-	<ul>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p01_fbx_fundamt.html">Flexbox: Fundamentos</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p02_fbx_justif_cont.html">Flexbox: Justificar contenido</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p03_fbx_alinear_items.html">Flexbox: Alineación vertical</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p04_fbx_alinear_cont.html">Flexbox: Alineación de contenido</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p05_fbx_centrado_perf.html">Flexbox: Centrado perfecto</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p06_fbx_element_hijos.html">Flexbox: Elementos hijo</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p07_fbx_media_menu.html">Flexbox: Menú responsive</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p08_fbx_media_mak.html">Flexbox: Página responsive</a></li>
-		<li> <a target="_blank" href="https://getbootstrap.com/">Documentación de BootStrap</a></li>		
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p09_btr_inicio_plantilla.html">Bootstrap: Inicio con link a internet</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p10_btr_inicio_descarga.html">Bootstrap: Inicio con descarga de archivos</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p11_btr_tipografia.html">Bootstrap: Página con tipografia</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p12_btr_alineacion.html">Bootstrap: Página con alineaciones</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p13_btr_grid_1.html">Bootstrap: Página con cuadriculas (grid) 1</a></li>
-		<li> <a target="_blank" href="unid2/s08_mak_btr_fund/p14_btr_grid_2.html">Bootstrap: Página con cuadriculas (grid) 2</a></li>
-	</ul>
-	
-	<h3> 9. Maquetado con Framework Bootstrap </h3>
-	<ul>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p01_btr_grid_vert.html">Bootstrap: 1. Página con cuadriculas (Verticales)</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p02_btr_gutters_padding.html">Bootstrap: 2. Página con relleno (gutters) y espaciado</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p03_btr_img_tabls.html">Bootstrap: 3. Página con imágenes y tablas</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p04_btr_form_ctrl.html">Bootstrap: 4. Página con controladores de formularios</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p05_btr_lst_chk_rad.html">Bootstrap: 5. Página con lista, check y radio</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p06_btr_input_grup.html">Bootstrap: 6. Página con input y grupos de input</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p07_btr_form_h_v.html">Bootstrap: 7. Página con formularios horizontales y verticales</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p08_btr_validacion.html">Bootstrap: 8. Página con validaciones</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p09_btr_acord_alert.html">Bootstrap: 9. Página con acordeon y alertas</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p10_btr_badge_msj.html">Bootstrap: 10. Página con badge (Mensajes-Notificaciones)</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p11_btr_nav_breadcrumd.html">Bootstrap: 11. Página con breadcrumd (Navegador-menu)</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p12_btr_btns_agrp_close.html">Bootstrap: 12. Página con botones, botones agrupados y botón cerrar</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p13_btr_card_carousel.html">Bootstrap: 13. Página con ventanas tipo tarjeta (card) y galeria (carousel)</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p14_btr_colapse_despl.html">Bootstrap: 14. Página con colapse(Mostrar/Esconder) y desplazamiento (Ops.menu)</a></li>
-		<li> <a target="_blank" href="unid2/s09_dw_bootstrap/p15_btr_modal.html">Bootstrap: 15. Página con modal (ventanas flotantes con form, tablas, etc.)</a></li>
-	</ul>
-
-	<h3>10. Diseño web, temas y publicación GitHub</h3>
-	<ul>
-		<li> <a target="_blank" href="unid2/s10_btr_tmp_github/p01_btr_nav_tabs_navbar.html">Bootstrap: 16. Página con navegador y tabs</a></li>
-		<li> <a target="_blank" href="unid2/s10_btr_tmp_github/p02_btr_offcanvas_pagnt.html">Bootstrap: 17. Página con offcanvas y paginación</a></li>
-		<li> <a target="_blank" href="unid2/s10_btr_tmp_github/p03_btr_popovers_scrollspy.html">Bootstrap: 18. Página con popovers y scrollspy</a></li>
-		<li> <a target="_blank" href="unid2/s10_btr_tmp_github/p04_btr_spinners_toasts_tooltips.html">Bootstrap: 19. Página con spinners, toasts y tooltips</a></li>
-		<li> <a target="_blank" href="unid2/s10_btr_tmp_github/p05_btr_icons.html">Bootstrap: 20. Página con icons</a></li>
-		<li> <a target="_blank" href="https://getbootstrap.com/docs/5.0/examples/headers/">Ejemplo: 1. Muestra página con logo, menu, buscador e imagen (Elegir)</a></li>
-		<li> <a target="_blank" href="https://getbootstrap.com/docs/5.0/examples/heroes/">Ejemplo: 2. Muestra página con logo, botones e imagen</a></li>
-		<li> <a target="_blank" href="https://getbootstrap.com/docs/5.0/examples/sidebars/">Ejemplo: 3. Muestra página con navegadores verticales</a></li>
-		<li> <a target="_blank" href="unid2/s10_btr_tmp_github/p06_ejm_sidebars_mn_vert_1.html">Ejemplo: 4. Muestra página con navegador vertical 1</a></li>
-		<li> <a target="_blank" href="unid2/s10_btr_tmp_github/p07_ejm_sidebars_mn_vert_2.html">Ejemplo: 5. Muestra página con navegador vertical 2</a></li>
-		<li> <a target="_blank" href="unid2/s10_btr_tmp_github/p08_ejm_sidebars_mn_vert_3.html">Ejemplo: 6. Muestra página con navegador vertical 3</a></li>
-
-		<li> <a target="_blank" href="https://getbootstrap.com/docs/5.0/examples/album/">Ejemplo: 7. Muestra página semejante al album (descripción)</a></li>
-		<li> <a target="_blank" href="https://getbootstrap.com/docs/5.0/examples/product/">Ejemplo: 9. Muestra página para productos (con titulo)</a></li>
-		<li> <a target="_blank" href="https://getbootstrap.com/docs/5.0/examples/carousel/">Ejemplo: 10. Muestra página con galeria y detalle</a></li>
-		<li> <a target="_blank" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer-navbar/">Ejemplo: 11. Muestra con menu, cabera y pie de página </a></li>
-		<li> <a target="_blank" href="unid2/s10_btr_tmp_github/p09_maquetado_sitio.html">Maquetado de un sitio personalizado </a></li>
-
-		<li> <a target="_blank" href="unid2/s10_btr_tmp_github/plantilla1/final.html">Plantilla: Muestra de tema 1</a></li>
-		<li> <a target="_blank" href="unid2/s10_btr_tmp_github/plantilla5/index.html">Plantilla: Muestra de tema 2</a></li>
-
-	</ul>
-
-	<h1> Tercera unidad </h1>
-		
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
